@@ -1,0 +1,56 @@
+body{
+    direction: rtl;
+    background: url('../images/instagram.png') no-repeat 95% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'b koodak';
+}
+.panel
+{
+    background-color: #1e272e;
+    margin: 10% 20% 20% 20%;
+    border-radius: 10px;
+    text-align: center;
+}
+.content{
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+#title{
+    text-align: center;
+    color: #d2dae2;
+    font-size: 50px;
+}
+ol
+{
+    text-align: right;
+    font-size: x-large;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: x-large;
+}
+
+#box{
+    text-align: center;
+    list-style: none;
+    font-size: x-large;
+}
+input[type=checkbox] {width:20px; height:20px;}
+button{
+    background-color: #CE0075;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: xx-large;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0 0 0 7px var(--light) inset;
+    margin-bottom: 15px;
+}

